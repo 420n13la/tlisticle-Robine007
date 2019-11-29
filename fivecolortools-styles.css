@@ -1,0 +1,107 @@
+/**
+ TODO(you): Write the CSS necessary for fivecolortools.html
+*/
+
+body {
+	width: 99%;
+}
+
+header{
+	text-align: center;
+	background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("images/header.png");
+	width: 100%;
+	z-index: -1;
+	background-size: cover;
+	height: 500px;
+}
+
+h1{
+	max-width: 780px;
+	margin: auto;
+	position: relative;
+	top: 150px;
+	font-size: 55px;
+	color: white;
+	font-family: 'Miriam Libre', sans-serif;
+}
+
+#logo{
+	border-radius: 100%;
+	width: 100px;
+	margin: auto;
+	display: block;
+	position: absolute;
+	top: 450px;
+	left: 46%;
+	border: 1px solid white;
+}
+
+#name{
+	text-align: center;
+	font-size: 33px;
+	font-family: 'Alice', serif;
+	position: relative;
+	top: 380px;
+	font-weight: bold;
+}
+
+#update{
+	text-align: center;
+	font-family: 'Alice', serif;
+	position: relative;
+	top: 360px;
+	font-style: italic;
+	color: rgb(51, 51, 51);
+	line-height: 33px;
+	border-bottom: solid #e6e6e6 2px;
+	padding-bottom: 10px;
+}
+
+#wrapper{
+	width: 66.6%;
+	margin: auto;
+	padding-top: 100px;
+}
+
+.titles{
+	font-weight: bold;
+	padding: 5px 0px;
+	display: inline;
+	font-family: 'Zilla Slab Highlight', cursive;
+	font-size: 45px;
+	color: rgb(51, 51, 51);
+}
+
+a{
+	text-decoration: none;
+	color: #42b4d6;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.comment{
+	font-family: 'Alice', serif;
+	font-size: 23px;
+	line-height: 32px;
+	color: rgb(51, 51, 51);
+	background-color: gold;
+	font-style: italic;
+}
+
+.description{
+	font-family: 'Alice', serif;
+	font-size: 23px;
+	line-height: 32px;
+	color: rgb(51, 51, 51);
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+.items{
+	padding: 60px 0px;
+}
